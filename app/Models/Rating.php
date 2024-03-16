@@ -21,7 +21,7 @@ class Rating extends Model
       'score' => 'integer'
     ];
 
-    public function book()
+    public function books()
     {
       return $this->belongsTo(Book::class);
     }
